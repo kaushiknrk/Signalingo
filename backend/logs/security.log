@@ -1,0 +1,55 @@
+[2026-09-28 15:12:20,371] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:13,399] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:13,688] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:13,964] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:13,970] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-09-28 15:13:14,213] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:43,533] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:43,815] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:44,054] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:13:44,063] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-09-28 15:13:44,307] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:56:20,278] [WARNING] [SECURITY]: Event=LOGIN_ATTEMPT | User=kaushiknr326@gmail.com | Status=FAILED | Details=User not found
+[2026-09-28 15:56:26,492] [WARNING] [SECURITY]: Event=LOGIN_ATTEMPT | User=kaushiknr326@gmail.com | Status=FAILED | Details=User not found
+[2026-09-28 15:56:30,348] [WARNING] [SECURITY]: Event=LOGIN_ATTEMPT | User=kaushiknr326@gmail.com | Status=FAILED | Details=User not found
+[2026-09-28 15:56:48,986] [INFO] [SECURITY]: Event=USER_REGISTRATION | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=User registered as learner
+[2026-09-28 15:58:29,957] [INFO] [SECURITY]: Event=USER_LOGOUT | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Logged out
+[2026-09-28 15:58:43,757] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:58:55,536] [INFO] [SECURITY]: Event=USER_LOGOUT | User=admin@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-09-28 15:59:00,381] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:59:11,006] [INFO] [SECURITY]: Event=USER_LOGOUT | User=family@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-09-28 15:59:17,531] [INFO] [SECURITY]: Event=USER_LOGIN | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Login successful
+[2026-09-28 15:59:23,227] [INFO] [SECURITY]: Event=USER_LOGOUT | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Logged out
+[2026-10-01 15:39:49,513] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-01 15:40:37,700] [INFO] [SECURITY]: Event=USER_LOGOUT | User=gowri@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-01 15:40:44,143] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-01 15:40:59,816] [INFO] [SECURITY]: Event=USER_LOGOUT | User=family@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-01 15:41:04,091] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-01 15:41:46,285] [INFO] [SECURITY]: Event=USER_LOGOUT | User=admin@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-01 15:43:36,568] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-01 15:43:46,615] [INFO] [SECURITY]: Event=USER_LOGOUT | User=family@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-01 15:46:02,296] [INFO] [SECURITY]: Event=USER_LOGIN | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Login successful
+[2026-10-01 15:50:40,940] [INFO] [SECURITY]: Event=USER_LOGOUT | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Logged out
+[2026-10-02 12:36:42,430] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 12:36:43,109] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 12:36:43,778] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 12:36:44,451] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 12:36:45,122] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 12:36:45,791] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 12:36:45,960] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-10-02 12:36:45,976] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-10-02 12:36:45,992] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-10-02 12:36:46,008] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=family@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: family
+[2026-10-02 12:36:46,870] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 13:51:24,121] [INFO] [SECURITY]: Event=USER_LOGIN | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Login successful
+[2026-10-02 13:51:31,311] [INFO] [SECURITY]: Event=USER_LOGOUT | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Logged out
+[2026-10-02 13:51:34,242] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 13:51:42,740] [INFO] [SECURITY]: Event=USER_LOGOUT | User=family@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-02 13:51:46,041] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 13:52:02,740] [INFO] [SECURITY]: Event=USER_LOGOUT | User=admin@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-02 20:44:50,434] [INFO] [SECURITY]: Event=USER_LOGIN | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Login successful
+[2026-10-02 20:44:56,536] [INFO] [SECURITY]: Event=USER_LOGOUT | User=kaushiknr326@gmail.com | Status=SUCCESS | Details=Logged out
+[2026-10-02 20:44:59,860] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 20:45:14,563] [INFO] [SECURITY]: Event=USER_LOGOUT | User=family@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-02 20:45:18,065] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-02 20:45:25,771] [INFO] [SECURITY]: Event=USER_LOGOUT | User=admin@signalingo.edu | Status=SUCCESS | Details=Logged out

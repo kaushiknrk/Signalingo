@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --turquoise-primary: #00A896;
+    --turquoise-light: #02C39A;
+    --yellow-accent: #FFB703;
+    --yellow-hover: #F59E0B;
+    --dark-blue: #0F172A;
+    --dark-blue-light: #1E293B;
+  }
+
+  body {
+    background-color: #0F172A;
+    color: #F1F5F9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Glassmorphic Components */
+.glass-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25), 0 8px 10px -6px rgba(0, 0, 0, 0.25);
+}
+
+.glass-card-interactive {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+}
+
+.glass-card-interactive:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(0, 168, 150, 0.4);
+  transform: translateY(-2px);
+}
+
+
+/* Custom Utilities for Signalingo Branding */
+.bg-turquoise-primary { background-color: #00A896; }
+.bg-turquoise-light { background-color: #02C39A; }
+.text-turquoise-primary { color: #00A896; }
+.text-turquoise-light { color: #02C39A; }
+.border-turquoise-primary { border-color: #00A896; }
+
+.bg-yellow-accent { background-color: #FFB703; }
+.text-yellow-accent { color: #FFB703; }
+.border-yellow-accent { border-color: #FFB703; }
+
+.bg-dark-blue { background-color: #0F172A; }
+.bg-dark-blue-card { background-color: #1E293B; }
+.text-dark-blue { color: #0F172A; }
+
+.shadow-turquoise-glow {
+  box-shadow: 0 10px 30px -5px rgba(0, 168, 150, 0.3);
+}
+
+.shadow-yellow-glow {
+  box-shadow: 0 10px 30px -5px rgba(255, 183, 3, 0.4);
+}
+
+/* Anime.js Parallax Floating Animation Classes */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(2deg); }
+}
+
+.animate-float {
+  animation: floatSlow 6s ease-in-out infinite;
+}
