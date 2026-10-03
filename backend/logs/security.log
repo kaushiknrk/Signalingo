@@ -53,3 +53,17 @@
 [2026-10-02 20:45:14,563] [INFO] [SECURITY]: Event=USER_LOGOUT | User=family@signalingo.edu | Status=SUCCESS | Details=Logged out
 [2026-10-02 20:45:18,065] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
 [2026-10-02 20:45:25,771] [INFO] [SECURITY]: Event=USER_LOGOUT | User=admin@signalingo.edu | Status=SUCCESS | Details=Logged out
+[2026-10-03 09:08:06,099] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:08:06,625] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:08:07,089] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:08:07,580] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:08:08,116] [INFO] [SECURITY]: Event=USER_LOGIN | User=family@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:08:08,528] [INFO] [SECURITY]: Event=USER_LOGIN | User=admin@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:08:08,573] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-10-03 09:08:08,586] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-10-03 09:08:08,600] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=gowri@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: learner
+[2026-10-03 09:08:08,613] [WARNING] [SECURITY]: Event=UNAUTHORIZED_ROLE_ACCESS | User=family@signalingo.edu | Status=FAILED | Details=Required roles: ['admin'], User role: family
+[2026-10-03 09:08:09,196] [INFO] [SECURITY]: Event=USER_LOGIN | User=gowri@signalingo.edu | Status=SUCCESS | Details=Login successful
+[2026-10-03 09:11:34,551] [WARNING] [SECURITY]: Event=REGISTER_ATTEMPT | User=kaushiknr326@gmail.com | Status=FAILED | Details=Email already registered
+[2026-10-03 09:11:45,743] [INFO] [SECURITY]: Event=USER_REGISTRATION | User=kaushiknr327@gmail.com | Status=SUCCESS | Details=User registered as learner
+[2026-10-03 09:12:48,251] [INFO] [SECURITY]: Event=USER_LOGOUT | User=kaushiknr327@gmail.com | Status=SUCCESS | Details=Logged out
